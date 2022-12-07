@@ -1,0 +1,59 @@
+[
+{"type":"header","version":"4.9.5","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"phpdb"},
+{"type":"table","name":"admin","database":"phpdb","data":
+[
+{"id":"1","adminname":"shimul","email":"shimul@yahoo.com","password":"42347239"},
+{"id":"2","adminname":"lipi","email":"lipi@yahoo.com","password":"42347239"}
+]
+}
+,{"type":"table","name":"products","database":"phpdb","data":
+[
+{"products name":"Iphone11","products type":"Mobile","price":"12000"},
+{"products name":"Skoda Fabia","products type":"Car","price":"200000"},
+{"products name":"Lenovo","products type":"Laptop","price":"3500"}
+]
+}
+,{"type":"table","name":"product_table","database":"phpdb","data":
+[
+{"id":"55","name":"Ipad-Pro","category":"laptop","description":"ipad-Pro M10 (2 nd gen) is a great media tablet designed for the whole family and has a Nano-SIM card reader.","image":"product_image\/ipad-pro.jpg","price":"8500.00"},
+{"id":"56","name":"Iphone-12","category":"mobile","description":"iphone-12 (2 nd gen) is a great media tablet designed for the whole family and has a Nano-SIM card reader.","image":"product_image\/iphone12.jpg","price":"100000.00"},
+{"id":"54","name":"HP-Laptop","category":"laptop","description":"HP-Laptop (10 nd gen) is a great media tablet designed for the whole family and has a Nano-SIM card reader.","image":"product_image\/hp-laptop.jpg","price":"5500.00"},
+{"id":"49","name":"Aser Laptop","category":"laptop","description":"Asus Laptop (2 nd gen) is a great media tablet designed for the whole family and has a Nano-SIM card reader.","image":"product_image\/aser-laptop.jpg","price":"5400.00"},
+{"id":"50","name":"Asus Laptop","category":"laptop","description":"Asus Laptop Pro M10 (2 nd gen) is a great media tablet designed for the whole family and has a Nano-SIM card reader.","image":"product_image\/asus-laptop.jpg","price":"5600.00"},
+{"id":"51","name":"Canon-Camera","category":"camera","description":"Canon Camera Pro (2 nd gen) is a great media tablet designed for the whole family and has a Nano-SIM card reader.","image":"product_image\/canon-camera.jpg","price":"8700.00"},
+{"id":"53","name":"Headphone","category":"headphone","description":"Sony Headphone is a great media tablet designed for the whole family and has a Nano-SIM card reader.","image":"product_image\/headphone.jpg","price":"450.00"},
+{"id":"48","name":"Apple-Mac-pro","category":"laptop","description":"Apple-Mac-Pro M10 (2 nd gen) is a great media tablet designed for the whole family and has a Nano-SIM card reader.","image":"product_image\/apple-macbook.jpg","price":"7500.00"},
+{"id":"57","name":"Lenovo-Laptop","category":"laptop","description":"Lenovo Laptop M10 (2 nd gen) is a great media tablet designed for the whole family and has a Nano-SIM card reader.","image":"product_image\/lenovo-laptop.jpg","price":"4700.00"},
+{"id":"58","name":"Lenovo-Tab","category":"laptop","description":"Lenovo Tab M10 (2 nd gen) is a great media tablet designed for the whole family. The tablet has a 10.1 \"HD screen, Android 10 operating system and wi-fi. For the 4G LTE connection, the tablet has a Nano-SIM card reader.","image":"product_image\/lenovo-tab.jpg","price":"850.00"},
+{"id":"59","name":"Nikon-Camera","category":"camera","description":"Nikon Camera (10 nd gen) is a great media tablet designed for the whole family and has a Nano-SIM card reader.","image":"product_image\/nikon-camera.jpg","price":"10500.00"},
+{"id":"60","name":"Nokia 3.4","category":"mobile","description":"Nokia 3.4 (2 nd gen) is a great media tablet designed for the whole family and has a Nano-SIM card reader.","image":"product_image\/nokia3.4.png","price":"4600.00"},
+{"id":"61","name":"SamsungA32","category":"mobile","description":"Samsung A32(12 nd gen) is a great media tablet designed for the whole family and has a Nano-SIM card reader.","image":"product_image\/samsungA32.jpg","price":"2300.00"},
+{"id":"84","name":"Aser Laptop","category":"laptop","description":"Lenovo Tab M10 (2 nd gen) is a great media tablet designed for the whole family. The tablet has a 10.1 \"HD screen, Android 10 operating system and wi-fi. For the 4G LTE connection, the tablet has a Nano-SIM card reader.","image":"product_image\/apple-macbook.jpg","price":"5600.00"}
+]
+}
+,{"type":"table","name":"tasks","database":"phpdb","data":
+[
+{"task_id":"1","parent_id":"0","task":"Assignment1","date_added":"2021-10-06 10:14:48","date_completed":"0000-00-00 00:00:00"},
+{"task_id":"2","parent_id":"0","task":"Assignment1","date_added":"2021-10-06 10:22:57","date_completed":"0000-00-00 00:00:00"},
+{"task_id":"3","parent_id":"0","task":"Assignment2","date_added":"2021-10-06 10:23:08","date_completed":"0000-00-00 00:00:00"},
+{"task_id":"4","parent_id":"0","task":"Assignment1","date_added":"2021-10-06 22:27:29","date_completed":"0000-00-00 00:00:00"},
+{"task_id":"5","parent_id":"0","task":"Assignment1","date_added":"2021-10-23 09:37:21","date_completed":"0000-00-00 00:00:00"},
+{"task_id":"6","parent_id":"0","task":"shimul-assignment","date_added":"2021-10-23 10:52:58","date_completed":"0000-00-00 00:00:00"}
+]
+}
+,{"type":"table","name":"user","database":"phpdb","data":
+[
+{"username":"Dipen","password":"Aradho"},
+{"username":"Himen","password":"Aradho1"},
+{"username":"shimul","password":"1234"}
+]
+}
+,{"type":"table","name":"users","database":"phpdb","data":
+[
+{"id":"14","username":"shimul","phone":"42347239","address":"Rebæk søpark","email":"shimul_ustc@yahoo.com","password":"shimul"},
+{"id":"15","username":"himen","phone":"42347239","address":"Rebæk søpark","email":"himen@yahoo.com","password":"himen"},
+{"id":"17","username":"julia","phone":"42347239","address":"Rebæk søpark 25, 3TV 2650 Hvidovre, Denmark","email":"shimul_ustc11@yahoo.com","password":"12345"}
+]
+}
+]
